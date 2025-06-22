@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Monomakh&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product list with cart</title>
+</head>
+<body>
+  <div class="popup">
+    <div class="popup-container">
+      <div class="popup_header">
+        <img src="assets\images\icon-order-confirmed.svg" alt="Confirm logo"/>
+        <h1>Order Confirmed</h1>
+        <p>We hope you enjoy your food!</p>
+      </div>
+      <div class="popup_body">
+        <div class="order-summary">
+          <p>Order Total</p>
+          <h1>$0.00</h1>
+        </div>
+      </div>
+      <div class="btn-div">
+        <button>Start New Order</button>
+      </div>
+    </div>
+  </div>
+  <div class="body-left">
+    <h1 class="header_main">Desserts</h1>
+    <div class="body-left_container">
+      <div class="body-left_container_div">
+        <img src="assets\images\image-waffle-tablet.jpg" alt="Order's Image" />
+        <div class="body-left_container_div_subdiv">
+          <div class="cart_p"> 
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+              <span>Add to Cart</span>
+            </button>
+            <p class='otherp'>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+              <span>1</span>
+              <i class="fa fa-minus" aria-hidden="true"></i>
+            </p>
+          </div>
+          <div class="not_cart_p">
+            <h3>Waffle</h3>
+            <h2>Waffle with Berries</h2>
+            <p>$6.50</p>
+          </div>
+        </div>        
+      </div>
+      <div class="body-left_container_div">
+        <img src="assets\images\image-creme-brulee-desktop.jpg" alt="Order's Image" />
+        <div class="body-left_container_div_subdiv">
+          <div class="cart_p"> 
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+              <span>Add to Cart</span>
+            </button>
+            <p class='otherp'>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+              <span>1</span>
+              <i class="fa fa-minus" aria-hidden="true"></i>
+            </p>
+          </div>
+          <div class="not_cart_p">
+            <h3>Crème Brûlée</h3>
+            <h2>Vanilla Bean Crème Brûlée</h2>
+            <p>$7.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="body-left_container_div">
+        <img src="assets\images\image-macaron-desktop.jpg" alt="Order's Image" />
+        <div class="body-left_container_div_subdiv">
+          <div class="cart_p"> 
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+              <span>Add to Cart</span>
+            </button>
+            <p class='otherp'>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+              <span>1</span>
+              <i class="fa fa-minus" aria-hidden="true"></i>
+            </p>
+          </div>
+          <div class="not_cart_p">
+            <h3>Macaron</h3>
+            <h2>Macaron Mix of Five</h2>
+            <p>$8.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="body-left_container_div">
+        <img src="assets\images\image-tiramisu-desktop.jpg" alt="Order's Image" />
+        <div class="body-left_container_div_subdiv">
+          <div class="cart_p"> 
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+              <span>Add to Cart</span>
+            </button>
+            <p class='otherp'>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+              <span>1</span>
+              <i class="fa fa-minus" aria-hidden="true"></i>
+            </p>
+          </div>
+          <div class="not_cart_p">
+            <h3>Tiramisu</h3>
+            <h2>Classic Tiramisu</h2>
+            <p>$5.50</p>
+          </div>
+        </div>
+      </div>
+      <div class="body-left_container_div">
+        <img src="assets\images\image-baklava-desktop.jpg" alt="Order's Image" />
+        <div class="body-left_container_div_subdiv">
+          <div class="cart_p"> 
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+              <span>Add to Cart</span>
+            </button>
+            <p class='otherp'>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+              <span>1</span>
+              <i class="fa fa-minus" aria-hidden="true"></i>
+            </p>
+          </div>
+          <div class="not_cart_p">
+            <h3>Baklava</h3>
+            <h2>Pistachio Baklava</h2>
+            <p>$4.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="body-left_container_div">
+        <img src="assets\images\image-meringue-desktop.jpg" alt="Order's Image" />
+        <div class="body-left_container_div_subdiv">
+          <div class="cart_p"> 
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+              <span>Add to Cart</span>
+            </button>
+            <p class='otherp'>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+              <span>1</span>
+              <i class="fa fa-minus" aria-hidden="true"></i>
+            </p>
+          </div>
+          <div class="not_cart_p">
+            <h3>Pie</h3>
+            <h2>Lemon Meringue Pie</h2>
+            <p>$5.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="body-left_container_div">
+        <img src="assets\images\image-cake-desktop.jpg" alt="Order's Image" />
+        <div class="body-left_container_div_subdiv">
+          <div class="cart_p"> 
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+              <span>Add to Cart</span>
+            </button>
+            <p class='otherp'>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+              <span>1</span>
+              <i class="fa fa-minus" aria-hidden="true"></i>
+            </p>
+          </div>
+          <div class="not_cart_p">
+            <h3>Cake</h3>
+            <h2>Red Velvet Cake</h2>
+            <p>$4.50</p>
+          </div>
+        </div>
+      </div>
+      <div class="body-left_container_div">
+        <img src="assets\images\image-brownie-desktop.jpg" alt="Order's Image" />
+        <div class="body-left_container_div_subdiv">
+          <div class="cart_p"> 
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+              <span>Add to Cart</span>
+            </button>
+            <p class='otherp'>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+              <span>1</span>
+              <i class="fa fa-minus" aria-hidden="true"></i>
+            </p>
+          </div>
+          <div class="not_cart_p">
+            <h3>Brownie</h3>
+            <h2>Salted Caramel Brownie</h2>
+            <p>$4.50</p>
+          </div>
+        </div>
+      </div>
+      <div class="body-left_container_div">
+        <img src="assets\images\image-panna-cotta-desktop.jpg" alt="Order's Image" />
+        <div class="body-left_container_div_subdiv">
+          <div class="cart_p"> 
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+              <span>Add to Cart</span>
+            </button>
+            <p class='otherp'>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+              <span>1</span>
+              <i class="fa fa-minus" aria-hidden="true"></i>
+            </p>
+          </div>
+          <div class="not_cart_p">
+            <h3>Panna Cotta</h3>
+            <h2>Vanilla Panna Cotta</h2>
+            <p>$6.50</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="body-right">
+    <h1 class="body-right_header">Your Cart (<span>0</span>)</h1>
+    <div class="body-right_imgdiv">
+      <img src="assets\images\illustration-empty-cart.svg" alt="Empty Cart Img" />
+      <p>Your added items will appear here</p>
+    </div>
+    <div class="body-right_active">
+      <div class="body-right_active_subdiv">
+        <div>
+          <h4 class="body-right_order_header">Classic Tiramisu</h4>
+          <p class="body-right_p"><span class="body-right_p_s1">1x</span><span class="body-right_p_s2">@$5.50</span><span class="body-right_p_s3">$5.50</span></p>
+        </div>
+        <div class="body-right_closebtn">
+          <img src="assets\images\icon-remove-item.svg" />
+        </div>
+      </div>
+      <div class="body-right_active_subdiv">
+        <div>
+          <h4 class="body-right_order_header">Vanilla Bean Crème Brûlée</h4>
+          <p class="body-right_p"><span class="body-right_p_s1">4x</span><span class="body-right_p_s2">@$7.00</span><span class="body-right_p_s3">$28.00</span></p>
+        </div>
+        <div class="body-right_closebtn">
+          <img src="assets\images\icon-remove-item.svg" />
+        </div>
+      </div>
+      <div class="body-right_active_subdiv">
+        <div>
+          <h4 class="body-right_order_header">Vanilla Panna Cotta</h4>
+          <p class="body-right_p"><span class="body-right_p_s1">2x</span><span class="body-right_p_s2">@$6.50</span><span class="body-right_p_s3">$13.00</span></p>
+        </div>
+        <div class="body-right_closebtn">
+          <img src="assets\images\icon-remove-item.svg" />
+        </div>
+      </div>
+      <div class="body-right_active_confirmdiv">
+        <p class="body-right_p">Order Total</p>
+        <h1>$46.00</h1>
+      </div>
+      <div class="body-right_active_subdiv2">
+        <img src="assets\images\icon-carbon-neutral.svg" />
+        <p class="body-right_p">This is a <span>carbon-neutral</span> delivery</p>
+      </div>
+      <div class="btn-div confirm-btn-div">
+        <button id="confirmOrderBtn">Confirm Order</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
